@@ -83,8 +83,9 @@ Create or configure the `.env` file at the root directory:
 PORT=5000
 NODE_ENV=development
 
-# Database Connection
+# Database Connections
 DATABASE_URL="postgresql://username:password@localhost:5432/scpc-backend?schema=public"
+DIRECT_URL="postgresql://username:password@localhost:5432/scpc-backend?schema=public"
 
 # JWT Secrets
 JWT_ACCESS_SECRET="your_super_secret_jwt_access_key"
@@ -125,6 +126,7 @@ The API will be available at: `http://localhost:5000/api`
 
 ## 📚 Documentation Links
 
+* [Supabase Hosting Guide (supabase.md)](file:///d:/Everything%20Else/Programming%20Hero/SCIC/prisma-postgre/supabase.md) — Supabase PostgreSQL connection strings, pooling setup, and migration steps.
 * [API Documentation (api-docs.md)](file:///d:/Everything%20Else/Programming%20Hero/SCIC/prisma-postgre/api-docs.md) — Endpoint specifications, JSON request bodies, and status codes.
 * [Frontend Integration Guide (frontend-for-backend.md)](file:///d:/Everything%20Else/Programming%20Hero/SCIC/prisma-postgre/frontend-for-backend.md) — Integration guide for frontend developers (Auth, Axios setup, Cart checkout, Errors).
 * [Next.js Frontend Architecture Plan (frontend.md)](file:///d:/Everything%20Else/Programming%20Hero/SCIC/prisma-postgre/frontend.md) — Page views, App Router layout, and state management plan.
