@@ -1,0 +1,36 @@
+# Tasks
+
+- [x] Phase 1: Initial Workspace Setup
+  - [x] Create server folder structure (Moved to root level)
+  - [x] Setup package.json in server/ directory (Moved to root level)
+  - [x] Configure tsconfig.json in server/ directory (Moved to root level)
+  - [x] Create .env file with configuration placeholders (Moved to root level)
+  - [x] Run npm install to download dependencies
+- [x] Phase 2: Schema Development & Migrations
+  - [x] Write schema.prisma file in server/prisma
+  - [x] Set up src/lib/prisma.ts Prisma Client singleton
+  - [x] Run npx prisma generate to build local typings
+  - [x] Run Prisma migrations to initialize database tables (Migration applied successfully)
+- [x] Phase 3: Infrastructure Setup (Utils, Middlewares, App Base)
+  - [x] Build utils/catchAsync.ts
+  - [x] Build utils/sendResponse.ts
+  - [x] Create middlewares/error.middleware.ts
+  - [x] Construct middlewares/validate.middleware.ts
+  - [x] Write src/app.ts (Express configuration)
+  - [x] Set up src/server.ts (Server boots)
+- [x] Phase 4: Authentication System (Auth Service)
+  - [x] Build Zod validation schemas for registration and login
+  - [x] Develop password hashing & JWT signing helper utilities
+  - [x] Write auth.service.ts business logic
+  - [x] Create auth.controller.ts route handlers
+  - [x] Create auth.middleware.ts to protect secured routes
+  - [x] Connect auth.routes.ts router endpoints
+- [x] Phase 5: Modular CRUD APIs Implementation
+  - [x] Implement Category Module CRUD (Validation, Service, Controller, Routes)
+  - [x] Implement Product Module CRUD
+  - [x] Implement User Module CRUD (Profile fetching/updating)
+  - [x] Implement Review Module CRUD
+  - [x] Implement Order Module CRUD
+- [x] Phase 6: Testing & Interactive Studio
+  - [x] Document all REST APIs in api-docs.md
+  - [x] Verify TypeScript build outputs
