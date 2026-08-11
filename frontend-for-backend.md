@@ -1,6 +1,6 @@
-# Frontend Integration Handbook for Backend APIs
+# UrbanMarket: Frontend Integration Handbook for Backend APIs
 
-This document is the definitive integration guide for frontend developers building a client application (Next.js / React) that consumes our Express, TypeScript, Prisma, and PostgreSQL backend.
+This document is the definitive integration guide for frontend developers building the **UrbanMarket** client application (Next.js / React) that consumes our Express, TypeScript, Prisma, and PostgreSQL backend.
 
 ---
 
